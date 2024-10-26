@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Location Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+        #map { height: 600px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script>
+        var map = L.map('map').setView([25.0330, 121.5654], 12); // 初始地圖位置
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        function loadVehicleData() {
+            fetch('vehicle_data.php')
+                .then(response => response.json())
+                .then(data => {
+                    var bounds = L.latLngBounds(); // 創建邊界變量
+
+                    data.forEach(vehicle => {
+                        if(vehicle.lat==null || vehicle.lng==null){
+                            //這車不見了
+
+                        }
+                        else{
+                            var markerColor = vehicle.isGray ? 'gray' : 'yellow';
+                            var circle = L.circleMarker([vehicle.lat, vehicle.lng], {
+                                radius: 8,
+                                fillColor: markerColor,
+                                color: markerColor,
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.6
+                            }).addTo(map);
+
+                            circle.bindPopup(`車輛 ID: ${vehicle.CarID}<br>車輛名稱: ${vehicle.Notice}<br>電壓: ${vehicle.voltage}V<br>座標: (${vehicle.lat}, ${vehicle.lng})`);
+
+                            // 將每個標記的座標添加到邊界
+                            bounds.extend([vehicle.lat, vehicle.lng]);
+                        }
+                    });
+
+                    // 自動聚焦到所有車輛的邊界
+                    if (bounds.isValid()) {
+                        map.fitBounds(bounds);
+                    }
+                });
+        }
+
+        loadVehicleData();
+        setInterval(loadVehicleData,5*60*  1000); // 每五分鐘自動更新
+    </script>
+</body>
+</html>

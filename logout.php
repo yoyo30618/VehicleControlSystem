@@ -1,0 +1,10 @@
+<?php
+	header("Content-Type:text/html;charset=utf-8");
+	session_start();
+	session_destroy();
+	setcookie("VehicleControlSystem_UserName",'',time()-1);
+	setcookie("VehicleControlSystem_IsLogin",'',time()-1);
+	setcookie("VehicleControlSystem_Notice",'',time()-1);
+	header("Location:index.php"); 
+	exit;
+?>

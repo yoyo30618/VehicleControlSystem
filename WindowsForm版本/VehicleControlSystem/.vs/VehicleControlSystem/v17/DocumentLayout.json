@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bear\\Desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\WindowsForm\u7248\u672C\\VehicleControlSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0F9A05-FF01-402A-8A00-2F8EF016300E}|VehicleControlSystem\\VehicleControlSystem.csproj|c:\\users\\bear\\desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\windowsform\u7248\u672C\\vehiclecontrolsystem\\vehiclecontrolsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C0F9A05-FF01-402A-8A00-2F8EF016300E}|VehicleControlSystem\\VehicleControlSystem.csproj|solutionrelative:vehiclecontrolsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0F9A05-FF01-402A-8A00-2F8EF016300E}|VehicleControlSystem\\VehicleControlSystem.csproj|c:\\users\\bear\\desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\windowsform\u7248\u672C\\vehiclecontrolsystem\\vehiclecontrolsystem\\vehiclecontrolsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2C0F9A05-FF01-402A-8A00-2F8EF016300E}|VehicleControlSystem\\VehicleControlSystem.csproj|solutionrelative:vehiclecontrolsystem\\vehiclecontrolsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0F9A05-FF01-402A-8A00-2F8EF016300E}|VehicleControlSystem\\VehicleControlSystem.csproj|c:\\users\\bear\\desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\windowsform\u7248\u672C\\vehiclecontrolsystem\\vehiclecontrolsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0F9A05-FF01-402A-8A00-2F8EF016300E}|VehicleControlSystem\\VehicleControlSystem.csproj|solutionrelative:vehiclecontrolsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleControlSystem",
+              "DocumentMoniker": "C:\\Users\\Bear\\Desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\WindowsForm\u7248\u672C\\VehicleControlSystem\\VehicleControlSystem\\VehicleControlSystem.csproj",
+              "RelativeDocumentMoniker": "VehicleControlSystem\\VehicleControlSystem.csproj",
+              "ToolTip": "C:\\Users\\Bear\\Desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\WindowsForm\u7248\u672C\\VehicleControlSystem\\VehicleControlSystem\\VehicleControlSystem.csproj",
+              "RelativeToolTip": "VehicleControlSystem\\VehicleControlSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T19:10:21.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Bear\\Desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\WindowsForm\u7248\u672C\\VehicleControlSystem\\VehicleControlSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "VehicleControlSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bear\\Desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\WindowsForm\u7248\u672C\\VehicleControlSystem\\VehicleControlSystem\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "VehicleControlSystem\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:43:40.745Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Bear\\Desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\WindowsForm\u7248\u672C\\VehicleControlSystem\\VehicleControlSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "VehicleControlSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bear\\Desktop\\\u7406\u67E5\u7684\u9177\u9177\u96FB\u52D5\u8ECA\u96FB\u6C60\u8A08\u756B\\WindowsForm\u7248\u672C\\VehicleControlSystem\\VehicleControlSystem\\Form1.cs",
+              "RelativeToolTip": "VehicleControlSystem\\Form1.cs",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAAAPsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:43:29.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
